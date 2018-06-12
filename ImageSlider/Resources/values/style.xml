@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <style name="MyTheme" parent="MyTheme.Base">
+  </style>
+  <!--Base theme applied no matter what API-->
+  <style name="MyTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="windowNoTitle">true</item>
+    <!--We will be using the toolbar so no need to show ActionBar-->
+    <item name="windowActionBar">false</item>
+    <!--Set theme color from http://www.google.com/design/spec/style/color.html#color-co-->
+    <!--Color Primary is used for default action bar backround-->
+    <item name="colorPrimary">#009688</item>
+    <!--Color Primary Dark is use for status bar-->
+    <item name="colorPrimaryDark">#1976D2</item>
+    <!--ColorAccent is used as the default value for 
+    ColorControlActivated which is used to tint widgts-->
+    <item name="colorAccent">#FF4081</item>
+    <item name="colorControlHighlight">#FF4081</item>
+    <!--You can also set ColorControlNormal ColorControlActivated 
+      ColorControlHihglight colorSwitchThumbNormal.-->
+  </style>
+</resources>
